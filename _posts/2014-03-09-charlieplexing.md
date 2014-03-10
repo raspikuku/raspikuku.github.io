@@ -12,6 +12,7 @@ Se also [wikipedia.org/Charlieplexing](http://en.wikipedia.org/wiki/Charlieplexi
 ### Board
 
 <img src="/images/charlieplexing_Steckplatine.svg" width="800" height="600" alt="bread board" />
+Fritzing: [charlieplexing.fzz](/images/fritzing/charlieplexing.fzz)
 
 ### Code
 

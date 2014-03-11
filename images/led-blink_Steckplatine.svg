@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <!-- Created with Fritzing (http://www.fritzing.org/) -->
-<svg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' version='1.2' baseProfile='tiny' x='0in' y='0in' width='6.50331in' height='4.76503in' viewBox='0 0 468.238 343.082' >
-<g partID='19690'><g transform='translate(0,191.882)' ><g  id="breadboardbreadboard">
+<svg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' version='1.2' baseProfile='tiny' x='0in' y='0in' width='6.54864in' height='4.86503in' viewBox='0 0 471.502 350.282' >
+<g partID='19690'><g transform='translate(0,199.082)' ><g  id="breadboardbreadboard">
  <g  id="background">
   <rect  width="468.238" y="0" fill="#D9D9D9" height="151.199"/>
  </g>
@@ -4311,7 +4311,7 @@
   </g>
  </g>
 </g>
-</g></g><g partID='19710'><g transform='translate(406.702,177.412)' ><g transform='matrix(-1,0,0,-1,0,0)'  ><g  id="breadboardbreadboard">
+</g></g><g partID='19710'><g transform='translate(471.502,177.412)' ><g transform='matrix(-1,0,0,-1,0,0)'  ><g  id="breadboardbreadboard">
  <g  id="layer1_1_">
   <rect  width="240.943" x="1.435" y="9.095" fill="#007300" height="158.74" id="rect3941_1_"/>
   <rect  width="38.618" x="97.152" y="69.211" fill="#1A1A1A" height="38.706" id="rect3941-8_1_"/>
@@ -6690,9 +6690,9 @@
   </g>
  </g>
 </g>
-</g></g></g><path stroke='#8c8c8c' stroke-width='2.15136' stroke-linecap='round' stroke-linejoin='round' fill='none' d='M435.72,302.905L435.719,292.686' />
-<path stroke='#8c8c8c' stroke-width='2.15136' stroke-linecap='round' stroke-linejoin='round' fill='none' d='M428.518,302.905L428.52,292.685' />
-<g partID='19760'><g transform='translate(440.247,332.112)' ><g transform='matrix(-1,0,0,-1,0,0)'  ><g xmlns="http://www.w3.org/2000/svg" id="breadboard">
+</g></g></g><path stroke='#8c8c8c' stroke-width='2.15136' stroke-linecap='round' stroke-linejoin='round' fill='none' d='M435.721,310.105L435.719,299.885' />
+<path stroke='#8c8c8c' stroke-width='2.15136' stroke-linecap='round' stroke-linejoin='round' fill='none' d='M428.519,310.105L428.52,299.885' />
+<g partID='19760'><g transform='translate(440.247,339.312)' ><g transform='matrix(-1,0,0,-1,0,0)'  ><g xmlns="http://www.w3.org/2000/svg" id="breadboard">
  <rect xmlns="http://www.w3.org/2000/svg" width="2.15208" x="3.45096" y="25.421" fill="none" height="0.72" id="connector0pin"/>
  <rect xmlns="http://www.w3.org/2000/svg" width="2.15424" x="10.651" y="25.421" fill="none" height="0.72" id="connector1pin"/>
  <g xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#8C8C8C" id="connector0leg" stroke-linecap="round" y1="40.565" x1="6.287" y2="74.754" stroke-width="2.15136" x2="6.287"/>
@@ -6715,9 +6715,9 @@
   <path xmlns="http://www.w3.org/2000/svg" opacity="0.5" fill="#FFFFFF" id="path38" d="M11.0729,20.2097c-0.2556,0.1224,-0.52992,0.22968,-0.80568,0.32976c-0.05832,0.01944,-0.11736,0.04032,-0.17784,0.05832c-0.56376,0.17928,-1.16136,0.31896,-1.79496,0.39456c-0.07488,0.00936,-0.1512,0.01872,-0.22464,0.01944c-0.3204,0.03024,-0.64368,0.05832,-0.97056,0.05832c-0.14832,0,-0.30744,-0.01512,-0.4716,-0.02376c-1.20024,-0.05688,-2.33064,-0.31464,-3.2976,-0.73944L3.33,11.9174L3.33,7.092c0,-1.47096,0.84816,-2.72952,2.0736,-3.34944L5.38128,3.68928l-1.24776,-1.512c-1.66968,1.00296,-2.79,2.8224,-2.79,4.91184l0,11.9052c-0.04968,-0.04968,-0.30816,-0.30888,-0.48024,-0.52992l-0.30744,0.6876c1.40112,1.48176,3.8088,2.46168,6.54264,2.46168c1.67976,0,3.23712,-0.37368,4.51152,-1.00224l-0.52704,-0.40896C11.0729,20.2097,11.0729,20.2097,11.0729,20.2097z"/>
  </g>
 </g>
-</g></g></g><path stroke='#8c8c8c' stroke-width='2.0952' stroke-linecap='round' stroke-linejoin='round' fill='none' d='M435.719,250.533L435.719,249.486' />
-<path stroke='#8c8c8c' stroke-width='2.0952' stroke-linecap='round' stroke-linejoin='round' fill='none' d='M435.719,277.243L435.719,278.291' />
-<g partID='19790'><g transform='translate(439.352,248.438)' ><g transform='matrix(0,1,-1,0,0,0)'  ><g xmlns="http://www.w3.org/2000/svg" id="breadboard">
+</g></g></g><path stroke='#8c8c8c' stroke-width='2.0952' stroke-linecap='round' stroke-linejoin='round' fill='none' d='M435.719,257.734L435.719,256.686' />
+<path stroke='#8c8c8c' stroke-width='2.0952' stroke-linecap='round' stroke-linejoin='round' fill='none' d='M435.719,284.443L435.719,285.491' />
+<g partID='19790'><g transform='translate(439.351,255.638)' ><g transform='matrix(0,1,-1,0,0,0)'  ><g xmlns="http://www.w3.org/2000/svg" id="breadboard">
  <rect xmlns="http://www.w3.org/2000/svg" width="0.72" x="0.36" y="2.5848" fill="none" height="0.72" id="connector0pin"/>
  <rect xmlns="http://www.w3.org/2000/svg" width="0.72" x="29.8202" y="2.5848" fill="none" height="0.72" id="connector1pin"/>
  <line xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#8C8C8C" id="connector0leg" stroke-linecap="round" y1="3.6324" x1="1.0476" y2="3.6324" stroke-width="2.0952" x2="2.0952"/>
@@ -6735,4 +6735,4 @@
  <rect xmlns="http://www.w3.org/2000/svg" width="0.70272" x="22.019" opacity="0.5" y="0.42336" fill="#FFFF33" height="1.62" id="Reflex_gold"/>
  <rect xmlns="http://www.w3.org/2000/svg" width="0.70272" x="22.019" opacity="0.5" y="0.78336" fill="#FFFFFF" height="0.7488" id="Reflex_extra"/>
 </g>
-</g></g></g><g partID='19860'><line stroke-linecap='round' stroke='#000000' x1='385.191' y1='163.003' x2='435.718' y2='227.882' stroke-width='3.2' /><line stroke-linecap='round' stroke='#404040' x1='385.191' y1='163.003' x2='435.718' y2='227.882' stroke-width='1.6' /></g><g partID='19930'><line stroke-linecap='round' stroke='#8c0000' x1='399.497' y1='155.849' x2='428.519' y2='227.882' stroke-width='3.2' /><line stroke-linecap='round' stroke='#cc1414' x1='399.497' y1='155.849' x2='428.519' y2='227.882' stroke-width='1.6' /></g></svg>
+</g></g></g><g partID='19860'><line stroke-linecap='round' stroke='#000000' x1='435.766' y1='155.886' x2='435.718' y2='235.082' stroke-width='3.2' /><line stroke-linecap='round' stroke='#404040' x1='435.766' y1='155.886' x2='435.718' y2='235.082' stroke-width='1.6' /></g><g partID='19930'><line stroke-linecap='round' stroke='#8c0000' x1='428.612' y1='155.886' x2='428.519' y2='235.082' stroke-width='3.2' /><line stroke-linecap='round' stroke='#cc1414' x1='428.612' y1='155.886' x2='428.519' y2='235.082' stroke-width='1.6' /></g></svg>

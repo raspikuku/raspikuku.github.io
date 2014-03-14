@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "LED Blink"
-date:   2014-03-10 17:00:00
-categories: raspi gpio
+categories: GPIO
+resource: true
 ---
 
 ### Board

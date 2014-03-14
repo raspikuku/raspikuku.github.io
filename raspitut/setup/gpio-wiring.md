@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: default
 title:  "GPIO Plain Wires"
-date:   2014-03-08 17:00:00
-categories: raspi gpio
+categories: Setup
+resource: true
 ---
 
 I find the numbering scheme on the Raspberry Pi's GPIO quite confusing, so I decided to "refactor" it :)

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Siren Sound"
-date:   2014-03-09 18:00:00
-categories: raspi gpio
+categories: GPIO
+resource: true
 ---
 
 This will produce a siren sound.

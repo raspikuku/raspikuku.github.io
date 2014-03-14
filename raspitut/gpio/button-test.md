@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Button Test"
-date:   2014-03-11 17:00:00
-categories: raspi gpio
+categories: GPIO
+resource: true
 ---
 
 ### Board

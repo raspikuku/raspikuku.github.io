@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Charlieplexing"
-date:   2014-03-09 17:00:47
-categories: raspi gpio
+categories: GPIO
+resource: true
 ---
 
 Inspired by [razzpisampler.oreilly.com/ch04](http://razzpisampler.oreilly.com/ch04.html)

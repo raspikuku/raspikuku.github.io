@@ -25,7 +25,7 @@ GPIO.setup(7, GPIO.OUT)
 
 try:
          while True:
-                 if (GPIO.input(11) ==1):
+                 if (GPIO.input(11) == 1):
                         GPIO.output(7, 1)
                  else:
                         GPIO.output(7, 0)

@@ -11,8 +11,7 @@ Se also [wikipedia.org/Charlieplexing](http://en.wikipedia.org/wiki/Charlieplexi
 
 ### Board
 
-<img src="/images/charlieplexing_Steckplatine.svg" width="800" height="600" alt="bread board" />
-Fritzing: [charlieplexing.fzz](/images/fritzing/charlieplexing.fzz)
+<img src="/images/fritzing/charlieplexing_Steckplatine.svg" width="800" height="600" alt="bread board" />
 
 ### Code
 
@@ -69,3 +68,6 @@ GPIO.cleanup()
 
 [![Charlieplexing](http://img.youtube.com/vi/rhG9w-7aowM/0.jpg)](http://www.youtube.com/watch?v=rhG9w-7aowM)
 
+### Download
+
+* Fritzing: [charlieplexing.fzz](/images/fritzing/charlieplexing.fzz)

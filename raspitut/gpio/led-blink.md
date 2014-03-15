@@ -5,10 +5,15 @@ categories: GPIO
 resource: true
 ---
 
+### Plan
+
+<div class="schaltplan">
+	<img src="/images/fritzing/led-blink_Schaltplan.svg" width="800" height="600" alt="wiring plan" /><br />
+</div>
+
 ### Board
 
-<img src="/images/led-blink_Steckplatine.svg" width="800" height="600" alt="bread board" /><br />
-Fritzing: [led-blink.fzz](/images/fritzing/led-blink.fzz)
+<img src="/images/fritzing/led-blink_Steckplatine.svg" width="800" height="600" alt="bread board" /><br />
 
 ### Code
 
@@ -54,4 +59,8 @@ GPIO.cleanup()
 ### Scratch
 
 <img src="/images/scratch/led-blink.png" alt="Scratch script" /><br />
-Scratch: [led-blink.sb](/images/scratch/led-blink.sb)
+
+### Download
+
+* Fritzing: [led-blink.fzz](/images/fritzing/led-blink.fzz)
+* Scratch: [led-blink.sb](/images/scratch/led-blink.sb)

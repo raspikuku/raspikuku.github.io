@@ -7,10 +7,15 @@ resource: true
 
 This will produce a siren sound.
 
+### Plan
+
+<div class="schaltplan">
+	<img src="/images/fritzing/speaker_Schaltplan.svg" width="800" height="600" alt="wiring plan" /><br />
+</div>
+
 ### Board
 
-<img src="/images/speaker_Steckplatine.svg" width="800" height="600" alt="bread board" />
-Fritzing: [speaker.fzz](/images/fritzing/speaker.fzz)
+<img src="/images/fritzing/speaker_Steckplatine.svg" width="800" height="600" alt="bread board" />
 
 ### Code
 
@@ -54,3 +59,6 @@ GPIO.cleanup()
 
 [![Siren sound](http://img.youtube.com/vi/jep-qCn5bCE/0.jpg)](http://www.youtube.com/watch?v=jep-qCn5bCE)
 
+### Download
+
+* Fritzing: [speaker.fzz](/images/fritzing/speaker.fzz)

@@ -5,10 +5,19 @@ categories: GPIO
 resource: true
 ---
 
+Read the state of a button.
+
+If the button is pressed, an LED lights up.
+
+### Plan
+
+<div class="schaltplan">
+	<img src="/images/fritzing/Button-Test_Schaltplan.svg" width="800" height="600" alt="wiring plan" /><br />
+</div>
+
 ### Board
 
-<img src="/images/Button-Test_Steckplatine.svg" width="800" height="600" alt="bread board" /><br />
-Fritzing: [Button-Test.fzz](/images/fritzing/Button-Test.fzz)
+<img src="/images/fritzing/Button-Test_Steckplatine.svg" width="800" height="600" alt="bread board" /><br />
 
 ### Code
 
@@ -32,3 +41,7 @@ try:
 except KeyboardInterrupt:
     GPIO.cleanup()
 {% endhighlight %}
+
+### Download
+
+* Fritzing: [Button-Test.fzz](/images/fritzing/Button-Test.fzz)

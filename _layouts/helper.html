@@ -4,6 +4,7 @@ layout: default
 <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
 <script src="//code.jquery.com/jquery-1.9.1.js"></script>
 <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script src="/javascripts/main.js"></script>
 
 <style>
     body {
@@ -24,59 +25,6 @@ layout: default
 </style>
 
 <script>
-    $(function () {
-
-        var ring1, ring2, multiplier;
-
-        var colors = ['black', 'brown', 'red', 'orange', 'yellow', 'green', 'blue', 'violet', 'gray', 'white'];
-
-        function recalc(name, value) {
-            $('#slider-' + name + '-displ').html(9 - value + ' ' + colors[9 - value]).css('background-color', colors[9 - value]);
-
-            var base = parseInt($('#slider-1-displ').html()) + '' + parseInt($('#slider-2-displ').html());
-
-            var multiplier = parseInt($('#slider-3-displ').html());
-            multiplier = multiplier ? Math.pow(10, multiplier) : 1;
-
-            var ohms = base * multiplier;
-            var ohmStr = '';
-
-            if (ohms >= 1000000) {
-                ohmStr = parseFloat(ohms / 1000000) + ' M Ω';
-            }
-            else if (ohms >= 1000) {
-                ohmStr = parseFloat(ohms / 1000) + ' K Ω';
-            }
-            else {
-                ohmStr = parseInt(ohms) + ' Ω';
-            }
-
-            $('#result').html(ohmStr);
-        }
-
-        $('#slider-1').slider({ orientation: 'vertical',
-            max: 9,
-            value: 8,
-            slide: function (event, ui) {
-                recalc(1, ui.value)
-            }});
-
-        $('#slider-2').slider({ orientation: 'vertical',
-            max: 9,
-            value: 9,
-            slide: function (event, ui) {
-                recalc(2, ui.value)
-            }});
-
-        $('#slider-3').slider({ orientation: 'vertical',
-            max: 9,
-            value: 7,
-            slide: function (event, ui) {
-                recalc(3, ui.value)
-            }});
-
-        recalc();
-    });
 
     var states = [];
 

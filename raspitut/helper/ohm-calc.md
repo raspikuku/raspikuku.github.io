@@ -132,6 +132,29 @@ resource: true
 	</tr>
 </table>
 
+<script>
+$(function () {
+	$('#slider-1').slider({ orientation: 'vertical',
+		max: 9,
+		value: 8,
+		slide: function (event, ui) {
+			recalc(1, ui.value)
+		}});
 
-</body>
-</html> 
+	$('#slider-2').slider({ orientation: 'vertical',
+		max: 9,
+		value: 9,
+		slide: function (event, ui) {
+			recalc(2, ui.value)
+		}});
+
+	$('#slider-3').slider({ orientation: 'vertical',
+		max: 9,
+		value: 7,
+		slide: function (event, ui) {
+			recalc(3, ui.value)
+		}});
+
+	recalc();
+});
+</script>

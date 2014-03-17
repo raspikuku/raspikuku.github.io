@@ -64,12 +64,3 @@ GPIO.cleanup()
 
 * Fritzing: [led-blink.fzz](/images/fritzing/led-blink.fzz)
 * Scratch: [led-blink.sb](/images/scratch/led-blink.sb)
-
-<script type="text/javascript">
-function checkGrid(row, col, state) {
-	console.log(row, col, state);
-	alert(row, col, state);
-}
-</script>
-
-<div onclick="checkGrid(1, 2, 3);">CLICK</div>

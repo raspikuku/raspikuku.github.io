@@ -77,6 +77,74 @@ layout: default
 
         recalc();
     });
+
+    var states = [];
+
+    function setupGrid(id) {
+        var matrix = '';
+
+        matrix += '<table class="matrix" border="1">';
+
+        var row, col;
+
+        for (row = 1; row <= 5; row ++) {
+            matrix += '<tr>';
+
+            for (col = 1; col <= 6; col ++) {
+                matrix += '<td id="cell' + row + '-' + col + '" onclick="checkGrid(' + row + ', ' + col + ');" style="background-color: #111;"></td>';
+            }
+
+            matrix += '</tr>';
+        }
+        matrix += '<table>';
+
+        jQuery('#' + id).html(matrix);
+        //document.getElementById('matrix').innerHTML = matrix;
+
+    }
+
+    function checkGrid(row, col) {
+        console.log(states);
+        if (undefined == states[row]) {
+            states[row] = [];
+        }
+        console.log(states);
+
+        if (undefined == states[row][col]) {
+            states[row][col] = false;
+        }
+        console.log(states);
+        states[row][col] = states[row][col] ? false : true;
+
+        console.log(row, col, states[row][col]);
+
+        var matrixString = '';
+
+        for (ckCol = 1; ckCol <= 6; ckCol ++) {
+            for (ckRow = 1; ckRow <= 5; ckRow ++) {
+               if (undefined == states[ckRow]) {
+                        continue;
+               }
+
+               if(!ckCol in states[ckRow]) {
+                    continue;
+               }
+
+               if (true == states[ckRow][ckCol]) {
+                    pin = (ckCol - 1) * 5 + (ckRow - 1);
+                    matrixString = (matrixString === '') ? pin : matrixString + ', ' + pin;
+                    $('#cell' + ckRow + '-' + ckCol).css('background-color', '#ffc');
+               }
+               else {
+                    $('#cell' + ckRow + '-' + ckCol).css('background-color', '#111');
+               }
+
+            }
+        }
+
+        $('#result').html(matrixString);
+    }
+
 </script>
 
 <h2>{{ page.title }}</h2>

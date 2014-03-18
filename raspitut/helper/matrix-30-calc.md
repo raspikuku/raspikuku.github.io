@@ -1,6 +1,6 @@
 ---
 layout: helper
-title:  "Matrix calc"
+title:  "Matrix Calc"
 categories: Helper
 resource: true
 ---

@@ -11,7 +11,7 @@ resource: true
 	</tr>
 	<tr>
 		<td colspan="2" id="slider-1-displ" style="background-color: brown;">1 brown</div></td>
-		<td colspan="2" id="slider-2-displ" style="background-color: black;">0</td>
+		<td colspan="2" id="slider-2-displ" style="background-color: black;">0 black</td>
 		<td colspan="2" id="slider-3-displ" style="background-color: red;">2 red</td>
 	</tr>
 	<tr>

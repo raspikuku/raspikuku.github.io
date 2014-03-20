@@ -59,6 +59,8 @@ GPIO.cleanup()
 
 [![Siren sound](http://img.youtube.com/vi/jep-qCn5bCE/0.jpg)](http://www.youtube.com/watch?v=jep-qCn5bCE)
 
+<iframe width="420" height="315" src="//www.youtube.com/embed/jep-qCn5bCE" frameborder="0" allowfullscreen></iframe>
+
 ### Download
 
 * Fritzing: [speaker.fzz](/images/fritzing/speaker.fzz)

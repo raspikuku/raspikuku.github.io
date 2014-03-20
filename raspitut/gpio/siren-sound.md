@@ -10,7 +10,7 @@ This will produce a siren sound.
 ### Plan
 
 <div class="schaltplan">
-	<img src="/images/fritzing/speaker_Schaltplan.svg" width="800" height="600" alt="wiring plan" /><br />
+	<img src="/images/fritzing/speaker_Schaltplan.svg" width="400" alt="wiring plan" /><br />
 </div>
 
 ### Board
@@ -57,7 +57,7 @@ GPIO.cleanup()
 
 ### Video
 
-[![Siren sound](http://img.youtube.com/vi/jep-qCn5bCE/0.jpg)](http://www.youtube.com/watch?v=jep-qCn5bCE)
+Please raise your volume =;)
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/jep-qCn5bCE" frameborder="0" allowfullscreen></iframe>
 

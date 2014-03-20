@@ -66,7 +66,7 @@ GPIO.cleanup()
 
 ### Video
 
-[![Charlieplexing](http://img.youtube.com/vi/rhG9w-7aowM/0.jpg)](http://www.youtube.com/watch?v=rhG9w-7aowM)
+<iframe width="420" height="315" src="//www.youtube.com/embed/rhG9w-7aowM" frameborder="0" allowfullscreen></iframe>
 
 ### Download
 

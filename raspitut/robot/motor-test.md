@@ -14,4 +14,4 @@ Motor test.
 
 ### Download
 
-* Fritzing: [motor-tester.fzz](/images/fritzing/motor-tester.fzz)
+* Fritzing: [motor-tester.fzz](/images/fritzing/motor-testert.fzz)

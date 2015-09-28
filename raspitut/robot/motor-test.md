@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Motor Test"
-categories: GPIO
+categories: Robot
 resource: true
 ---
 

@@ -7,3 +7,11 @@ resource: true
 
 Motor test.
 
+### Board
+
+<img src="/images/fritzing/motor-tester_Steckplatine.svg" width="800" height="600" alt="bread board" />
+<img src="/images/fritzing/motor-tester_Steckplatine.png" width="800" height="600" alt="bread board" />
+
+### Download
+
+* Fritzing: [motor-tester.fzz](/images/fritzing/motor-tester.fzz)

@@ -22,8 +22,6 @@ import time
 
 gpio.setmode(gpio.BOARD)
 
-gpio.setup(11, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
-
 PIN_IN1 = 16
 PIN_IN2 = 15
 PIN_IN3 = 13
@@ -66,13 +64,13 @@ def right(x):
 
     time.sleep(x)
 
-print 'Motor adelante'
+print 'Adelante'
 adelante(2)
-print 'Motor atras'
+print 'Atras'
 atras(2)
-print 'Motor left'
+print 'Left'
 left(2)
-print 'right'
+print 'Right'
 right(2)
 
 gpio.cleanup()

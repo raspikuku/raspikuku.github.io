@@ -17,22 +17,68 @@ Motor connection and test.
 {% highlight python %}
 #!/usr/bin/env python
 
-import RPi.GPIO as GPIO
+import RPi.GPIO as gpio
+import time
 
-GPIO.setmode(GPIO.BOARD)
+gpio.setmode(gpio.BOARD)
 
-GPIO.setup(11, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+gpio.setup(11, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
-GPIO.setup(7, GPIO.OUT)
+PIN_IN1 = 16
+PIN_IN2 = 15
+PIN_IN3 = 13
+PIN_IN4 = 11
 
-try:
-    while True:
-        if (GPIO.input(11) == 1):
-                        GPIO.output(7, 1)
-                 else:
-                        GPIO.output(7, 0)
-except KeyboardInterrupt:
-    GPIO.cleanup()
+gpio.setup(PIN_IN1, gpio.OUT)
+gpio.setup(PIN_IN2, gpio.OUT)
+gpio.setup(PIN_IN3, gpio.OUT)
+gpio.setup(PIN_IN4, gpio.OUT)
+
+def adelante(x):
+    gpio.output(PIN_IN1, False)
+    gpio.output(PIN_IN2, True)
+    gpio.output(PIN_IN3, False)
+    gpio.output(PIN_IN4, True)
+
+    time.sleep(x)
+
+def atras(x):
+    gpio.output(PIN_IN1, True)
+    gpio.output(PIN_IN2, False)
+    gpio.output(PIN_IN3, True)
+    gpio.output(PIN_IN4, False)
+
+    time.sleep(x)
+
+def left(x):
+    gpio.output(PIN_IN1, False)
+    gpio.output(PIN_IN2, True)
+    gpio.output(PIN_IN3, True)
+    gpio.output(PIN_IN4, False)
+
+    time.sleep(x)
+
+def right(x):
+    gpio.output(PIN_IN1, True)
+    gpio.output(PIN_IN2, False)
+    gpio.output(PIN_IN3, False)
+    gpio.output(PIN_IN4, True)
+
+    time.sleep(x)
+
+print 'Motor adelante'
+adelante(2)
+print 'Motor atras'
+atras(2)
+print 'Motor left'
+left(2)
+print 'right'
+right(2)
+
+gpio.cleanup()
+
+print
+print 'finished =;)'
 {% endhighlight %}
 
 ### Download

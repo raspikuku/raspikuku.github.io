@@ -13,7 +13,7 @@ resource: true
 
 ### Board
 
-<img src="/images/fritzing/arduino/led_blink_Steckplatine.svg" width="800" height="600" alt="bread board" />
+<img src="/images/fritzing/arduino/led_blink_Steckplatine.svg" width="584" height="409" alt="bread board" />
 
 ### Code
 

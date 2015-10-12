@@ -8,13 +8,12 @@ resource: true
 ### Plan
 
 <div class="schaltplan">
-	<img src="/images/fritzing/Button-Test_Schaltplan.svg" width="800" height="600" alt="wiring plan" /><br />
+	<img src="/images/fritzing/arduino/led_blink_Schaltplan.svg" width="800" height="600" alt="wiring plan" />
 </div>
 
 ### Board
 
-<img src="/images/fritzing/X_Steckplatine.svg" width="800" height="600" alt="bread board" /><br />
-![bread board](/images/fritzing/X_Steckplatine.svg)
+<img src="/images/fritzing/arduino/led_blink_Steckplatine.svg" width="800" height="600" alt="bread board" />
 
 ### Code
 

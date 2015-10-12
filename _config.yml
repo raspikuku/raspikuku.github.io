@@ -1,4 +1,4 @@
 name: YARPF
 markdown: redcarpet
 pygments: true
-category-list: [Setup, GPIO, Robot, Helper, Refs]
+category-list: [Setup, GPIO, Robot, Helper, Refs, Arduino]

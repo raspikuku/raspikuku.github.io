@@ -39,6 +39,61 @@ void loop() {
 }
 {% endhighlight %}
 
+#### Switch
+
+{% highlight c %}
+int pinButton = 9;
+int pinLED = 13;
+int stateLED = 0;
+
+void setup() {
+  pinMode(pinLED, OUTPUT);
+  pinMode(pinButton, INPUT);
+}
+
+void loop() {
+
+  int buttonState = digitalRead(pinButton);
+
+  if (buttonState == HIGH) {
+    if (stateLED == 0) {
+      digitalWrite(pinLED, HIGH);
+    }
+    else {
+      digitalWrite(pinLED, LOW);     
+    }
+
+    stateLED = 1 - stateLED;
+
+    delay(500);
+  }
+  
+}
+{% endhighlight %}
+
+#### Timer
+
+{% highlight c %}
+int pinButton = 9;
+int pinLED = 13;
+
+void setup() {
+  pinMode(pinLED, OUTPUT);
+  pinMode(pinButton, INPUT);
+}
+
+void loop() {
+
+  int buttonState = digitalRead(pinButton);
+
+  if (buttonState == HIGH) {
+    digitalWrite(pinLED, HIGH);
+    delay(5000);
+    digitalWrite(pinLED, LOW);
+  }
+}
+{% endhighlight %}
+
 ### Download
 
 Fritzing: [button_led.fzz](/images/fritzing/arduino/button_led.fzz)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "1 - Blink an LED"
+title:  "2 - Una LED"
 categories: Arduino
 resource: true
 ---

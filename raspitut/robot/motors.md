@@ -12,6 +12,8 @@ Motor connection and test.
 <img src="/images/fritzing/robot/motors_Steckplatine.svg" width="800" height="600" alt="bread board" />
 <img src="/images/fritzing/robot/motors_Steckplatine.png" width="800" height="600" alt="bread board" />
 
+<p class="advert">Made with <a href="http://fritzing.org">Fritzing</a></p>
+
 ### Code
 
 {% highlight python %}

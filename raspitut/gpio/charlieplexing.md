@@ -13,6 +13,8 @@ Se also [wikipedia.org/Charlieplexing](http://en.wikipedia.org/wiki/Charlieplexi
 
 <img src="/images/fritzing/charlieplexing_Steckplatine.svg" width="800" height="600" alt="bread board" />
 
+<p class="advert">Made with <a href="http://fritzing.org">Fritzing</a></p>
+
 ### Code
 
 {% highlight python %}

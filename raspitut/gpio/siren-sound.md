@@ -17,6 +17,8 @@ This will produce a siren sound.
 
 <img src="/images/fritzing/speaker_Steckplatine.svg" width="800" height="600" alt="bread board" />
 
+<p class="advert">Made with <a href="http://fritzing.org">Fritzing</a></p>
+
 ### Code
 
 {% highlight python %}

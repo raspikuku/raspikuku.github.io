@@ -15,6 +15,8 @@ resource: true
 
 ![bread board](/images/fritzing/photo-resistor_Steckplatine.svg)
 
+<p class="advert">Made with <a href="http://fritzing.org">Fritzing</a></p>
+
 ### Code
 
 {% highlight python %}

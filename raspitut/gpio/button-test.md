@@ -19,6 +19,8 @@ If the button is pressed, an LED lights up.
 
 <img src="/images/fritzing/Button-Test_Steckplatine.svg" width="800" height="600" alt="bread board" /><br />
 
+<p class="advert">Made with <a href="http://fritzing.org">Fritzing</a></p>
+
 ### Code
 
 {% highlight python %}

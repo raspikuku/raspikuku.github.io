@@ -272,4 +272,5 @@ div.schaltplan {
 p.advert {
   font-family: monospace;
   font-size :0.8em;
+  text-align: right;
 }

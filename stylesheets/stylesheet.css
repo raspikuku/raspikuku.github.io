@@ -268,3 +268,8 @@ div.schaltplan {
     background-color: #aaa;
     padding: 0.5em;
 }
+
+p.advert {
+  font-family: monospace;
+  font-size :0.8em;
+}

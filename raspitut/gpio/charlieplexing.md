@@ -7,7 +7,7 @@ resource: true
 
 Inspired by [razzpisampler.oreilly.com/ch04](http://razzpisampler.oreilly.com/ch04.html)
 
-Se also [wikipedia.org/Charlieplexing](http://en.wikipedia.org/wiki/Charlieplexing)
+Se also [wikipedia.org/Charlieplexing](https://en.wikipedia.org/wiki/Charlieplexing)
 
 ### Board
 

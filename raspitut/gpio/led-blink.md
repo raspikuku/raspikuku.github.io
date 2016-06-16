@@ -19,7 +19,7 @@ resource: true
 
 ### Code
 
-{% highlight python %}
+```python
 #!/usr/bin/env python
 
 ## Import GPIO library
@@ -56,7 +56,7 @@ try:
 
 # Cleanup used GPIO ports
 GPIO.cleanup()
-{% endhighlight %}
+```
 
 ### Scratch
 

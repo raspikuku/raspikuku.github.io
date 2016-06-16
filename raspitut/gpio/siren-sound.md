@@ -21,7 +21,7 @@ This will produce a siren sound.
 
 ### Code
 
-{% highlight python %}
+```python
 #!/usr/bin/env python
 
 import time
@@ -55,7 +55,7 @@ except KeyboardInterrupt:
 p.stop()
 
 GPIO.cleanup()
-{% endhighlight %}
+```
 
 ### Video
 

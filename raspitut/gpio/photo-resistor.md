@@ -19,7 +19,7 @@ resource: true
 
 ### Code
 
-{% highlight python %}
+```python
 #!/usr/bin/env python
 
 # http://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi
@@ -71,7 +71,7 @@ except KeyboardInterrupt:
     pass
 
 GPIO.cleanup()
-{% endhighlight %}
+```
 
 ### Scratch
 

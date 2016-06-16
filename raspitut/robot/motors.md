@@ -16,7 +16,7 @@ Motor connection and test.
 
 ### Code
 
-{% highlight python %}
+```python
 #!/usr/bin/env python
 
 import RPi.GPIO as gpio
@@ -79,7 +79,7 @@ gpio.cleanup()
 
 print
 print 'finished =;)'
-{% endhighlight %}
+```
 
 ### Download
 

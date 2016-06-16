@@ -23,7 +23,7 @@ If the button is pressed, an LED lights up.
 
 ### Code
 
-{% highlight python %}
+```python
 #!/usr/bin/env python
 
 import RPi.GPIO as GPIO
@@ -42,7 +42,7 @@ try:
                         GPIO.output(7, 0)
 except KeyboardInterrupt:
     GPIO.cleanup()
-{% endhighlight %}
+```
 
 ### Download
 

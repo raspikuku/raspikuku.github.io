@@ -17,7 +17,7 @@ Se also [wikipedia.org/Charlieplexing](http://en.wikipedia.org/wiki/Charlieplexi
 
 ### Code
 
-{% highlight python %}
+```python
 #!/usr/bin/env python
 
 import RPi.GPIO as GPIO
@@ -64,7 +64,7 @@ except KeyboardInterrupt:
     pass
 
 GPIO.cleanup()
-{% endhighlight %}
+```
 
 ### Video
 

@@ -19,9 +19,9 @@ resource: true
 
 ### Code
 
-{% highlight python %}
+```python
 X
-{% endhighlight %}
+```
 
 ### Scratch
 
